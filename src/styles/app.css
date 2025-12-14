@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f6f8;
+}
+
+.navbar {
+  background: #4a6cf7;
+  color: white;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.board {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.column {
+  background: white;
+  padding: 10px;
+  width: 280px;
+  border-radius: 6px;
+}
+
+.task-card {
+  background: #eef1f5;
+  padding: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  font-size: 12px;
+}
+
+.duplicate {
+  color: red;
+  font-size: 11px;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  background: white;
+  padding: 15px;
+  width: 280px;
+}
